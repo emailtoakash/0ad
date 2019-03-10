@@ -1,0 +1,13 @@
+language: cpp
+install: make get-deps
+compiler:
+  - clang
+  - gcc
+  jobs:
+  include:
+    - stage: build
+      script: ./builds 
+    - # stage name not required, will continue to use `test`
+      script: ./builds 
+    - stage: test
+      script: ./builds 
