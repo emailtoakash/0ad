@@ -21,6 +21,7 @@
     <Entities datatype="tokens">
       units/{civ}_champion_infantry_barracks
       units/{civ}_champion_cavalry_barracks
+	  units/gaul_champion_axeman
     </Entities>
     <Technologies datatype="tokens">
       unlock_champion_units
